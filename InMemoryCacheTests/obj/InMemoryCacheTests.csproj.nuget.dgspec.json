@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jonathandeehan/Projects/InMemoryCache/InMemoryCacheTests/InMemoryCacheTests.csproj": {}
+  },
+  "projects": {
+    "/Users/jonathandeehan/Projects/InMemoryCache/InMemoryCache/InMemoryCache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jonathandeehan/Projects/InMemoryCache/InMemoryCache/InMemoryCache.csproj",
+        "projectName": "InMemoryCache",
+        "projectPath": "/Users/jonathandeehan/Projects/InMemoryCache/InMemoryCache/InMemoryCache.csproj",
+        "packagesPath": "/Users/jonathandeehan/.nuget/packages/",
+        "outputPath": "/Users/jonathandeehan/Projects/InMemoryCache/InMemoryCache/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jonathandeehan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jonathandeehan/Projects/InMemoryCache/InMemoryCacheTests/InMemoryCacheTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jonathandeehan/Projects/InMemoryCache/InMemoryCacheTests/InMemoryCacheTests.csproj",
+        "projectName": "InMemoryCacheTests",
+        "projectPath": "/Users/jonathandeehan/Projects/InMemoryCache/InMemoryCacheTests/InMemoryCacheTests.csproj",
+        "packagesPath": "/Users/jonathandeehan/.nuget/packages/",
+        "outputPath": "/Users/jonathandeehan/Projects/InMemoryCache/InMemoryCacheTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jonathandeehan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/jonathandeehan/Projects/InMemoryCache/InMemoryCache/InMemoryCache.csproj": {
+                "projectPath": "/Users/jonathandeehan/Projects/InMemoryCache/InMemoryCache/InMemoryCache.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
